@@ -8,3 +8,6 @@ models/*.bin
 models/*.pt
 models/*.pth
 models/*.safetensors
+# MLflow local tracking data
+mlflow.db
+mlruns/
