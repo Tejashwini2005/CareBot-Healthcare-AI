@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "text": "Patient has pneumonia. Start amoxicillin 500 mg three times daily. Follow up in 7 days.",
+    "expected": {
+      "diagnosis": ["pneumonia"],
+      "medications": ["amoxicillin"],
+      "follow_up": "7 days"
+    }
+  },
+  {
+    "id": 2,
+    "text": "Diagnosis is hypertension. Continue lisinopril 10 mg once daily. Review blood pressure after 2 weeks.",
+    "expected": {
+      "diagnosis": ["hypertension"],
+      "medications": ["lisinopril"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 3,
+    "text": "Patient diagnosed with type 2 diabetes. Start metformin 500 mg twice daily. Follow up after 1 month.",
+    "expected": {
+      "diagnosis": ["type 2 diabetes"],
+      "medications": ["metformin"],
+      "follow_up": "1 month"
+    }
+  },
+  {
+    "id": 4,
+    "text": "Clinical assessment indicates iron deficiency anemia. Start iron supplementation daily. Review in 4 weeks.",
+    "expected": {
+      "diagnosis": ["iron deficiency anemia"],
+      "medications": ["iron supplementation"],
+      "follow_up": "4 weeks"
+    }
+  },
+  {
+    "id": 5,
+    "text": "Patient has acute bronchitis. Prescribe azithromycin 500 mg once daily. Return in 5 days.",
+    "expected": {
+      "diagnosis": ["acute bronchitis"],
+      "medications": ["azithromycin"],
+      "follow_up": "5 days"
+    }
+  },
+  {
+    "id": 6,
+    "text": "Diagnosis: migraine. Start sumatriptan 50 mg as needed. Follow up in 2 weeks.",
+    "expected": {
+      "diagnosis": ["migraine"],
+      "medications": ["sumatriptan"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 7,
+    "text": "Patient has allergic rhinitis. Begin cetirizine 10 mg daily. Review in 2 weeks.",
+    "expected": {
+      "diagnosis": ["allergic rhinitis"],
+      "medications": ["cetirizine"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 8,
+    "text": "Assessment shows asthma. Continue salbutamol inhaler as needed. Follow up in 1 month.",
+    "expected": {
+      "diagnosis": ["asthma"],
+      "medications": ["salbutamol"],
+      "follow_up": "1 month"
+    }
+  },
+  {
+    "id": 9,
+    "text": "Patient diagnosed with urinary tract infection. Start nitrofurantoin 100 mg twice daily. Return in 7 days.",
+    "expected": {
+      "diagnosis": ["urinary tract infection"],
+      "medications": ["nitrofurantoin"],
+      "follow_up": "7 days"
+    }
+  },
+  {
+    "id": 10,
+    "text": "Diagnosis is hypothyroidism. Continue levothyroxine 50 mcg daily. Check again in 6 weeks.",
+    "expected": {
+      "diagnosis": ["hypothyroidism"],
+      "medications": ["levothyroxine"],
+      "follow_up": "6 weeks"
+    }
+  },
+  {
+    "id": 11,
+    "text": "Patient has gastritis. Start omeprazole 20 mg once daily. Follow up in 2 weeks.",
+    "expected": {
+      "diagnosis": ["gastritis"],
+      "medications": ["omeprazole"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 12,
+    "text": "Clinical diagnosis is sinusitis. Prescribe amoxicillin 500 mg three times daily. Review after 10 days.",
+    "expected": {
+      "diagnosis": ["sinusitis"],
+      "medications": ["amoxicillin"],
+      "follow_up": "10 days"
+    }
+  },
+  {
+    "id": 13,
+    "text": "Patient has eczema. Apply hydrocortisone cream twice daily. Review in 2 weeks.",
+    "expected": {
+      "diagnosis": ["eczema"],
+      "medications": ["hydrocortisone"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 14,
+    "text": "Diagnosis: hyperlipidemia. Start atorvastatin 20 mg nightly. Repeat review in 3 months.",
+    "expected": {
+      "diagnosis": ["hyperlipidemia"],
+      "medications": ["atorvastatin"],
+      "follow_up": "3 months"
+    }
+  },
+  {
+    "id": 15,
+    "text": "Patient diagnosed with depression. Continue sertraline 50 mg daily. Follow up in 4 weeks.",
+    "expected": {
+      "diagnosis": ["depression"],
+      "medications": ["sertraline"],
+      "follow_up": "4 weeks"
+    }
+  },
+  {
+    "id": 16,
+    "text": "Assessment indicates osteoarthritis. Use paracetamol 500 mg as needed. Review in 1 month.",
+    "expected": {
+      "diagnosis": ["osteoarthritis"],
+      "medications": ["paracetamol"],
+      "follow_up": "1 month"
+    }
+  },
+  {
+    "id": 17,
+    "text": "Patient has GERD. Start pantoprazole 40 mg daily. Follow up in 4 weeks.",
+    "expected": {
+      "diagnosis": ["GERD"],
+      "medications": ["pantoprazole"],
+      "follow_up": "4 weeks"
+    }
+  },
+  {
+    "id": 18,
+    "text": "Diagnosis is bacterial conjunctivitis. Start antibiotic eye drops. Return in 5 days.",
+    "expected": {
+      "diagnosis": ["bacterial conjunctivitis"],
+      "medications": ["antibiotic eye drops"],
+      "follow_up": "5 days"
+    }
+  },
+  {
+    "id": 19,
+    "text": "Patient diagnosed with pneumonia. Continue doxycycline 100 mg twice daily. Review in 7 days.",
+    "expected": {
+      "diagnosis": ["pneumonia"],
+      "medications": ["doxycycline"],
+      "follow_up": "7 days"
+    }
+  },
+  {
+    "id": 20,
+    "text": "Assessment shows hypertension. Start amlodipine 5 mg daily. Check blood pressure in 2 weeks.",
+    "expected": {
+      "diagnosis": ["hypertension"],
+      "medications": ["amlodipine"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 21,
+    "text": "Patient has type 2 diabetes. Continue metformin 1000 mg twice daily. Review in 3 months.",
+    "expected": {
+      "diagnosis": ["type 2 diabetes"],
+      "medications": ["metformin"],
+      "follow_up": "3 months"
+    }
+  },
+  {
+    "id": 22,
+    "text": "Diagnosis: anemia. Continue oral iron tablets once daily. Repeat blood test in 4 weeks.",
+    "expected": {
+      "diagnosis": ["anemia"],
+      "medications": ["oral iron tablets"],
+      "follow_up": "4 weeks"
+    }
+  },
+  {
+    "id": 23,
+    "text": "Patient diagnosed with migraine. Continue propranolol 40 mg daily. Review in 1 month.",
+    "expected": {
+      "diagnosis": ["migraine"],
+      "medications": ["propranolol"],
+      "follow_up": "1 month"
+    }
+  },
+  {
+    "id": 24,
+    "text": "Clinical assessment indicates asthma. Start budesonide inhaler twice daily. Follow up in 2 weeks.",
+    "expected": {
+      "diagnosis": ["asthma"],
+      "medications": ["budesonide"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 25,
+    "text": "Patient has hypothyroidism. Continue levothyroxine 75 mcg daily. Repeat thyroid test in 6 weeks.",
+    "expected": {
+      "diagnosis": ["hypothyroidism"],
+      "medications": ["levothyroxine"],
+      "follow_up": "6 weeks"
+    }
+  },
+  {
+    "id": 26,
+    "text": "Diagnosis is urinary tract infection. Start ciprofloxacin 500 mg twice daily. Return in 7 days.",
+    "expected": {
+      "diagnosis": ["urinary tract infection"],
+      "medications": ["ciprofloxacin"],
+      "follow_up": "7 days"
+    }
+  },
+  {
+    "id": 27,
+    "text": "Patient diagnosed with gastritis. Continue omeprazole 20 mg daily. Follow up in 2 weeks.",
+    "expected": {
+      "diagnosis": ["gastritis"],
+      "medications": ["omeprazole"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 28,
+    "text": "Assessment shows allergic rhinitis. Continue cetirizine 10 mg daily. Review after 2 weeks.",
+    "expected": {
+      "diagnosis": ["allergic rhinitis"],
+      "medications": ["cetirizine"],
+      "follow_up": "2 weeks"
+    }
+  },
+  {
+    "id": 29,
+    "text": "Patient has hyperlipidemia. Continue atorvastatin 20 mg nightly. Repeat lipid test in 3 months.",
+    "expected": {
+      "diagnosis": ["hyperlipidemia"],
+      "medications": ["atorvastatin"],
+      "follow_up": "3 months"
+    }
+  },
+  {
+    "id": 30,
+    "text": "Diagnosis: osteoarthritis. Continue paracetamol 500 mg as needed. Review in 1 month.",
+    "expected": {
+      "diagnosis": ["osteoarthritis"],
+      "medications": ["paracetamol"],
+      "follow_up": "1 month"
+    }
+  }
+]
