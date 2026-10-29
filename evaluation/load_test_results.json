@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-10-29T06:44:09.561927+00:00",
+  "endpoint": "http://127.0.0.1:8000/predict",
+  "concurrent_requests": 50,
+  "total_requests": 50,
+  "successful_requests": 50,
+  "failed_requests": 0,
+  "elapsed_seconds": 2.023,
+  "throughput_requests_per_second": 24.72,
+  "average_latency_ms": 1356.01,
+  "median_latency_ms": 1300.15,
+  "p95_latency_ms": 1900.43,
+  "max_latency_ms": 1911.3,
+  "http_status_counts": {
+    "200": 50
+  },
+  "errors": []
+}
